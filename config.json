@@ -3,7 +3,7 @@
         "server": 3000
     },
     "themoviedb": {
-        "apikey": "f700f75cdcd2e823289ae8bdaa9521f8"
+        "apikey": "Your Developer Key"
     },
     "viaplayContentAPIEndpoint": "//content.viaplay.se/pc-se/film",
     "themovieDBApiEndpoint": "https://api.themoviedb.org/3",
