@@ -1,0 +1,31 @@
+{
+  "name": "trailerThemoviedb",
+  "version": "1.0.0",
+  "description": "ViaPlay movie trailer finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test --recursive",
+    "eslint": "node_modules/eslint/bin/eslint.js server.js inc/** test/**"
+  },
+  "author": "Ajmal Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "node-siege": "0.0.4",
+    "priorityqueuejs": "^1.0.0",
+    "redis": "^2.6.2",
+    "request-promise": "^3.0.0",
+    "winston": "^2.2.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "mocha": "^2.5.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "ports": {
+        "server": 3000
+    },
+    "themoviedb": {
+        "apikey": "f700f75cdcd2e823289ae8bdaa9521f8"
+    },
+    "viaplayContentAPIEndpoint": "//content.viaplay.se/pc-se/film",
+    "themovieDBApiEndpoint": "https://api.themoviedb.org/3",
+    "viaplayImdbPath": "_embedded.viaplay:blocks[0]._embedded.viaplay:product.content.imdb.id",
+    "youtubeTrailerLink": "https://www.youtube.com/watch?v="
+}
