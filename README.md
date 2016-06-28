@@ -4,6 +4,9 @@ An API which take ViaPlay movie url as input and return the trailer of that movi
 
 The solution is quite simple.. just do the following steps..
 
+## Note
+   please provide your api key at config.json file
+
 ## install
    
    npm install
