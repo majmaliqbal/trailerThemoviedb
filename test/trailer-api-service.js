@@ -47,8 +47,6 @@ describe('TrailerApiService', function () {
             }).then(function (result) {
                 assert.equal(result.trailerUrl, outputUrl);
             });
-        });
-        
-        
+        });        
     });
 });

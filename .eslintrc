@@ -1,0 +1,28 @@
+{
+    "rules": {
+        "indent": [2, 4],
+        "radix": 2,
+        "quotes": [2, "single", "avoid-escape"],
+        "wrap-iife": 2,
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "always"],
+        "no-unused-vars": [2, {"vars": "all", "args": "after-used", "argsIgnorePattern": "[iI]gnored"}],
+        "space-before-blocks": 2,
+        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+        "space-in-parens": [2, "never"],
+        "no-multiple-empty-lines": [1, {"max": 1}],
+        "camelcase": [2, {"properties": "never"}],
+        "brace-style": 2,
+        "no-else-return": 2,
+        "no-unreachable": 2,
+        "one-var": [2, "always"],
+        "comma-spacing": 2,
+        "comma-style": 2,
+        "no-trailing-spaces": 0,
+        "no-underscore-dangle": 0
+    },
+    "env": {
+        "node": true
+    },
+    "extends": "eslint:recommended"
+}

@@ -11,11 +11,11 @@ var appConfig = require('../../../config.json'),
     
 function importTrailersFromRadis() {
     redisClient.hgetall('movie_trailer', function (err, res) {
-       if (!err && res !== null) {
-           Object.keys(res).forEach (function (id) {
-               trailers[id] = JSON.parse(res[id]);
-           });
-       } 
+        if (!err && res !== null) {
+            Object.keys(res).forEach (function (id) {
+                trailers[id] = JSON.parse(res[id]);
+            });
+        } 
     });
 }
 
@@ -26,9 +26,6 @@ function TrailerApiService(viaplayApi, themeMovieDBApi) {
         importTrailersFromRadis();
     }
     this.router = express.Router();
-    
-    
-    
     this.router.get('/', this.getTrailerUrl.bind(this));
 }
 
