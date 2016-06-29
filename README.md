@@ -38,3 +38,9 @@ For Stress test, I use siege which i installed at mac and then run different com
 siege -c50 -t1M  "http://localhost:3000/api/trailer?movieUrl=http://content.viaplay.se/pc-se/film/fight-club-1999"
 
 siege -b -t1M  "http://localhost:3000/api/trailer?movieUrl=http://content.viaplay.se/pc-se/film/fight-club-1999"
+
+## ToDo
+
+1- As you can see curently data is taken from Redis at very first request which need to be at restart and there need to add timestamp in redis (when data was actually saved), so to add a feature to update the data if the timestamp is older than certain time in order to refresh the trailer. Also a no_cache parameter which will refresh cache data for certain movie ... This feature will also help to improve speed through cluster or child_process
+
+Thanks
